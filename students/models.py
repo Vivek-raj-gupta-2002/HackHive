@@ -57,6 +57,7 @@ class Question(models.Model):
 
 class Response(models.Model):
     form = models.ForeignKey(Form, on_delete=models.CASCADE)
+    submitted_by = models.ForeignKey(User, on_delete=models.CASCADE)
     submitted_at = models.DateTimeField(auto_now_add=True)
 
 class Answer(models.Model):
@@ -72,4 +73,4 @@ Basic community model to display details about  a community and its description
 """
 
 class Community(models.Model):
-    
+    pass
