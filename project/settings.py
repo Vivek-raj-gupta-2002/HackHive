@@ -44,9 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # installed apps
-    'app_1',
+    'students',
     'app_2',
-     'ckeditor',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
