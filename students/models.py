@@ -67,3 +67,9 @@ class Answer(models.Model):
     class Meta:
         unique_together = ('response', 'question') # for every question there should be one and only one answer per response
 
+"""
+Basic community model to display details about  a community and its description
+"""
+
+class Community(models.Model):
+    
