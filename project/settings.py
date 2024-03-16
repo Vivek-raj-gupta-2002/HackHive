@@ -28,7 +28,7 @@ ROOT = os.path.join(BASE_DIR, 'ROOT')
 SECRET_KEY = 'django-insecure-&=p0!utf3m9@%*_&q4_)d9ahty^c&as&vi%9^16z3jiwpbt*9w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG')
+DEBUG = 'True'
 
 ALLOWED_HOSTS = ['*']
 
@@ -42,6 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # installed apps
+    'app_1',
+    'app_2',
+     'ckeditor',
 ]
 
 MIDDLEWARE = [
