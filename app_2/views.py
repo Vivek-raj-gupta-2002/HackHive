@@ -25,7 +25,7 @@ def p_post(request):
         if post_form.is_valid():
             post_form = post_form.save(commit=False)
             post_form.user = user
-
+            post_form.is_anonymous = False
             post_form.save()
 
         post_form = forms.PostForm()
