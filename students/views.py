@@ -12,44 +12,60 @@ STUDENTS PORTAL
 
 @login_required
 def post(request):
-
     """
     Showing Posts
     Add anonumus posts
     seeing comments
     """
-    
+
     user = User.objects.get(username=request.user.username)
-    posts = models.Post.objects.filter()
-    comments = models.Comments.objects.all()
-    comm_form = models.Comments()
+    posts = models.Post.objects.all()
+    post_form = forms.PostForm()
 
     # Save the form
     if request.method == 'POST':
-        comm_form = models.Comments(request.POST)
-        if comm_form.is_valid():
-            comm_form = comm_form.save(commit=False)
-            comm_form.user = user
+        post_form = forms.PostForm(request.POST)
+        if post_form.is_valid():
+            post_form = post_form.save(commit=False)
+            post_form.user = user
 
-            comm_form.save()
+            post_form.save()
 
-        comm_form = models.Comments()
+        post_form = forms.PostForm()
 
-    return HttpResponse('POST')
+    data = {
+        'post': posts,
+        'post_form': post_form
+    }
+
+    return render(request, 'post.html', data)
 
 
 @login_required
-def helpers(requests):
+def helpers(request):
     """
     Get the helpers details
     Top and top 5
     """
 
-    desired_group = Group.objects.get(name="Physicologist")
+    data = Group.objects.all().filter(name='helper')[0]
     
-    posts = models.Post.objects.filter(is_anonymous=False)[:5]
+    req_data = User.objects.filter(groups=data)
+
+    post = posts = models.Post.objects.filter(is_anonymous=False)
     
-    pass
+    
+    return render(request, 'psyco.html', {'data': req_data[:3], 'top': req_data[3:7], 'post':post})
+
+def community(request):
+    return render(request,'community.html')
+
+@login_required
+def dash(request):
+    
+
+    return render(request, 'dash.html')
+
 
 @login_required
 def profile(requests):
@@ -61,6 +77,7 @@ def profile(requests):
     bestmates
     family members
     """
-    
     pass
+
+
 

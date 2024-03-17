@@ -25,4 +25,5 @@ app_1: Contains the informations about students side part
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('students.urls')),
 ]

@@ -1,0 +1,936 @@
+.psychologist {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.2rem;
+    width: 93.7rem;
+    box-sizing: border-box;
+  }
+  .its-us-not-only-you {
+    margin: 0.2rem 2.2rem 0 0;
+    display: inline-block;
+    width: 43.3rem;
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 3.8rem;
+    color: #000000;
+  }
+  .group-115 {
+    box-shadow: 0.6rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 0 0.9rem 0.9rem 0;
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711244600&KeyName=fn12-cdn&Signature=niw77z2sdf8ODi41X9HqMACWJgw=') 50% / cover no-repeat;
+    position: relative;
+    margin-right: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.3rem 0 0 0.2rem;
+    width: 19.3rem;
+    height: 59.6rem;
+    box-sizing: border-box;
+  }
+  .rectangle-765 {
+    border-radius: 0 0.9rem 0.9rem 0;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0.9rem;
+    top: 1.5rem;
+    right: 1.2rem;
+    height: 56.1rem;
+  }
+  .frame-127 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .dash-board {
+    margin-bottom: 3.4rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .monitor-dashboard {
+    margin: 0 1rem 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.3rem;
+    height: 2rem;
+    box-sizing: border-box;
+  }
+  .vector {
+    width: 2.3rem;
+    height: 2rem;
+  }
+  .feed {
+    margin-top: 0rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .purchase {
+    margin: 0 0.1rem 3.3rem 0.1rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .face-agent {
+    margin: 0.2rem 1.1rem 0.6rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.7rem;
+    box-sizing: border-box;
+  }
+  .vector-1 {
+    width: 1.8rem;
+    height: 1.7rem;
+  }
+  .helpers {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .sell {
+    margin: 0 0 3.3rem 0.1rem;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .chart-line {
+    margin: 0.3rem 1.1rem 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2rem;
+    height: 1.6rem;
+    box-sizing: border-box;
+  }
+  .vector-2 {
+    width: 2rem;
+    height: 1.6rem;
+  }
+  .communities {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .items-menu {
+    margin: 0 0rem 4.1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .package-variant-plus {
+    margin: 0.2rem 1rem 0.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    box-sizing: border-box;
+  }
+  .vector-3 {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
+  .survey {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .employee-menu {
+    margin: 0 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .account-tie {
+    margin: 0.3rem 1.3rem 0.3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.9rem;
+    box-sizing: border-box;
+  }
+  .vector-4 {
+    width: 1.6rem;
+    height: 1.9rem;
+  }
+  .profile {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .near-by-psychologist {
+    margin-bottom: 2.1rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #000000;
+  }
+  .ellipse-4 {
+    margin-bottom: 1.3rem;
+    width: 6.2rem;
+    height: 6.3rem;
+  }
+  .prinston-gordge {
+    margin: 0 0.2rem 0.3rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .child-specialist {
+    margin: 0 1.2rem 0.5rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #000000;
+  }
+  .vector-5 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-6 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-8 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-10 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .frame-134 {
+    margin: 0 1.8rem 1.4rem 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.6rem;
+    width: 6.3rem;
+    box-sizing: border-box;
+  }
+  .schedule-meet-button {
+    border-radius: 2.5rem;
+    border: 0.1rem solid #000000;
+    background: #9ED1F7;
+    position: relative;
+    margin-left: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.6rem 0.5rem 0.5rem 1.1rem;
+    box-sizing: border-box;
+  }
+  .pyschologist-card-detail {
+    margin-bottom: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .psy-frame {
+    border-radius: 0.9rem;
+    background: #D5EEED;
+    position: relative;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.4rem 0.9rem 1.1rem 0.4rem;
+    box-sizing: border-box;
+  }
+  .psy-frame-11 {
+    border-radius: 0.9rem;
+    background: #D5EEED;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 0.4rem 0.5rem 0 0.4rem;
+    height: 11.3rem;
+    box-sizing: border-box;
+  }
+  .ellipse-413 {
+    margin: 1.7rem 0 1.4rem 0;
+    width: 6.2rem;
+    height: 6.3rem;
+  }
+  .pyschologist-card-detail-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .prinston-gordge-15 {
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #000000;
+  }
+  .child-specialist-16 {
+    margin: 0 0.9rem 0.5rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #000000;
+  }
+  .schedule-meet-button-17 {
+    border-radius: 2.5rem;
+    border: 0.1rem solid #000000;
+    background: #9ED1F7;
+    position: relative;
+    margin: 0 0.4rem 0 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.6rem 0.5rem 0.5rem 1.1rem;
+    box-sizing: border-box;
+  }
+  .schedule-a-meet {
+    border: 0.1rem solid #000000;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #19FF14;
+  }
+  .frame-13418 {
+    margin: 0 1.4rem 1.4rem 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.6rem;
+    width: 6.3rem;
+    box-sizing: border-box;
+  }
+  .star-19 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-20 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-22 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-23 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-24 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-25 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-26 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-27 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-28 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .frame-118 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .near-by-psy {
+    border-radius: 0.8rem;
+    border: 0.2rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem 0 3.6rem 1.1rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .near-by-psy-29 {
+    border-radius: 0.8rem;
+    border: 0.2rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem 0 3.6rem 1.1rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .top-psychologist {
+    margin-bottom: 2.1rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #000000;
+  }
+  .group-118 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .psy-frame-31 {
+    border-radius: 0.9rem;
+    background: #D5EEED;
+    position: relative;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.4rem 0.9rem 0 0.4rem;
+    height: 11.3rem;
+    box-sizing: border-box;
+  }
+  .ellipse-433 {
+    margin: 1.7rem 0.7rem 1.4rem 0;
+    width: 6.2rem;
+    height: 6.3rem;
+  }
+  .pyschologist-card-detail-34 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .prinston-gordge-35 {
+    margin: 0 0.2rem 0.3rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .child-specialist-36 {
+    margin: 0 1.2rem 0.5rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #000000;
+  }
+  .schedule-meet-button-37 {
+    border-radius: 2.5rem;
+    border: 0.1rem solid #000000;
+    background: #9ED1F7;
+    position: relative;
+    margin-left: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.6rem 0.5rem 0.5rem 1.1rem;
+    box-sizing: border-box;
+  }
+  .schedule-a-meet-39 {
+    border: 0.1rem solid #000000;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #19FF14;
+  }
+  .frame-13440 {
+    margin: 0 1.8rem 1.4rem 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.6rem;
+    width: 6.3rem;
+    box-sizing: border-box;
+  }
+  .star-41 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-42 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-43 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-44 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-45 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-46 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-47 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-48 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-49 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-50 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .psy-frame-51 {
+    border-radius: 0.9rem;
+    background: #D5EEED;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 0.4rem 0.5rem 0 0.4rem;
+    height: 11.3rem;
+    box-sizing: border-box;
+  }
+  .ellipse-453 {
+    margin: 1.7rem 0 1.4rem 0;
+    width: 6.2rem;
+    height: 6.3rem;
+  }
+  .pyschologist-card-detail-54 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .prinston-gordge-55 {
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #000000;
+  }
+  .child-specialist-56 {
+    margin: 0 0.9rem 0.5rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #000000;
+  }
+  .schedule-meet-button-57 {
+    border-radius: 2.5rem;
+    border: 0.1rem solid #000000;
+    background: #9ED1F7;
+    position: relative;
+    margin: 0 0.4rem 0 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.6rem 0.5rem 0.5rem 1.1rem;
+    box-sizing: border-box;
+  }
+  .schedule-a-meet-59 {
+    border: 0.1rem solid #000000;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #19FF14;
+  }
+  .frame-13460 {
+    margin: 0 1.4rem 1.4rem 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.6rem;
+    width: 6.3rem;
+    box-sizing: border-box;
+  }
+  .star-61 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-62 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-63 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-64 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-65 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-66 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-67 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-68 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-69 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-70 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .psychologist-feed {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.8rem;
+    color: #000000;
+  }
+  .group-117 {
+    border-radius: 1.8rem;
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0rem;
+    bottom: -28.4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 4.4rem 1.1rem 0.9rem;
+    box-sizing: border-box;
+  }
+  .profile-71 {
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ellipse-3 {
+    margin-right: 1.1rem;
+    width: 4.6rem;
+    height: 4.4rem;
+  }
+  .prinston {
+    margin: 0.9rem 0 0.5rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: #000000;
+  }
+  .discription {
+    margin: 0 0 12.4rem 2rem;
+    display: inline-block;
+    text-align: justify;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .group-116 {
+    margin: 0 2.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 15.6rem;
+    box-sizing: border-box;
+  }
+  .comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.9rem;
+    height: 2.3rem;
+    box-sizing: border-box;
+  }
+  .vector-72 {
+    width: 2.9rem;
+    height: 2.3rem;
+  }
+  .heart {
+    margin: 0.1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.2rem;
+    box-sizing: border-box;
+  }
+  .vector-73 {
+    width: 2.6rem;
+    height: 2.2rem;
+  }
+  .share-variant {
+    margin: 0.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    box-sizing: border-box;
+  }
+  .vector-74 {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+  .frame-135 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .schedule-a-meet-76 {
+    border: 0.1rem solid #000000;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #19FF14;
+  }
+  .star-77 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-78 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .star-79 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .container {
+    box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711244600&KeyName=fn12-cdn&Signature=niw77z2sdf8ODi41X9HqMACWJgw=') 50% / cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.9rem 1.6rem 0.5rem 0;
+    width: 93.7rem;
+    box-sizing: border-box;
+  }
+  .search-bar {
+    border-radius: 4.4rem;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.9rem 0 0.7rem 1.3rem;
+    width: 19.8rem;
+    box-sizing: border-box;
+  }
+  .search {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 200;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .search-bar-4 {
+    margin: 0rem 1.4rem 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.3rem;
+    box-sizing: border-box;
+  }
+  .vector-80 {
+    width: 2.5rem;
+    height: 2.3rem;
+  }
+  .group-136 {
+    margin: 0.3rem 0.7rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .pts {
+    margin: 0 0rem 0 1.1rem;
+    overflow-wrap: break-word;
+    font-family: 'Shrikhand';
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #000000;
+  }
+  .container-81 {
+    box-shadow: 0.4rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.9rem;
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin: 1.4rem 0 0.9rem 0;
+    padding: 0.9rem 1.3rem 0 0;
+    width: 72.5rem;
+    height: 57.2rem;
+    box-sizing: border-box;
+  }
+  .container-82 {
+    margin-right: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    width: 93.6rem;
+    box-sizing: border-box;
+  }

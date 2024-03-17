@@ -3,6 +3,10 @@ from django.contrib.auth.models import User
 from ckeditor.fields import RichTextField
 # Create your models here.
 
+class Diary(models.Model):
+    date = models.DateField(auto_created=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    message = models.TextField(max_length=500)
 
 """
 Basic Models for the applications
@@ -16,12 +20,12 @@ class Thought(models.Model):
 
 class Post(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    content = RichTextField()
+    content = models.TextField()
     is_anonymous = models.BooleanField(default=True)
     # publish = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return self.user
+        return str(self.user)
 
 class Comments(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
@@ -67,10 +71,3 @@ class Answer(models.Model):
 
     class Meta:
         unique_together = ('response', 'question') # for every question there should be one and only one answer per response
-
-"""
-Basic community model to display details about  a community and its description
-"""
-
-class Community(models.Model):
-    pass
