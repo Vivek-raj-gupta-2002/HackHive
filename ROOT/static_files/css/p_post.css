@@ -1,0 +1,674 @@
+.psy-home {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93.7rem;
+    box-sizing: border-box;
+  }
+  .its-us-not-only-you {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 3.8rem;
+    color: #000000;
+  }
+  .submit-post-form {
+    margin-bottom: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .user-post {
+    box-shadow: 0rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 2.5rem;
+    border: 0.2rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin-right: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.8rem 0 0.9rem 1.3rem;
+    width: 55.8rem;
+    box-sizing: border-box;
+  }
+  .ellipse-2 {
+    margin-right: 3.6rem;
+    width: 4rem;
+    height: 4.3rem;
+  }
+  .share-your-quote {
+    margin: 0.6rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Shrikhand';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #000000;
+  }
+  .submit-button {
+    border-radius: 2.3rem;
+    border: 0.3rem solid #000000;
+    background: #D5EDFF;
+    position: relative;
+    margin: 1.1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.4rem 0rem 0.6rem 0;
+    width: 14.4rem;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .post {
+    border: 0.1rem solid #000000;
+    overflow-wrap: break-word;
+    font-family: 'Shrikhand';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #FFFFFF;
+  }
+  .group-115 {
+    box-shadow: 0.6rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 0 0.9rem 0.9rem 0;
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711258974&KeyName=fn12-cdn&Signature=l_xMShzDYbfFVRv3N-scGegykVo=') 50% / cover no-repeat;
+    position: relative;
+    margin: 0 0.3rem 53.8rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.2rem 1.9rem 0 0;
+    width: 19.3rem;
+    height: 59.6rem;
+    box-sizing: border-box;
+  }
+  .rectangle-765 {
+    border-radius: 0 0.9rem 0.9rem 0;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0.9rem;
+    top: 1.5rem;
+    right: 1.2rem;
+    height: 56.1rem;
+  }
+  .frame-127 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .dash-board {
+    margin: 0 0.1rem 3.1rem 0.1rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .home {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .purchase {
+    margin: 0 0 3.2rem 0.2rem;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .schedule {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .sell {
+    margin: 0 0rem 3.6rem 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .earnings {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .employee-menu {
+    margin: 0 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .account-tie {
+    margin: 0.3rem 1.3rem 0.3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.9rem;
+    box-sizing: border-box;
+  }
+  .vector {
+    width: 1.6rem;
+    height: 1.9rem;
+  }
+  .profile {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .cash-multiple {
+    margin: 0.6rem 1rem 0.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.2rem;
+    height: 1.6rem;
+    box-sizing: border-box;
+  }
+  .vector-1 {
+    width: 2.2rem;
+    height: 1.6rem;
+  }
+  .calendar-month-outline {
+    margin: 0.1rem 1.1rem 0.7rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    box-sizing: border-box;
+  }
+  .vector-2 {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .home-3 {
+    margin: 0.2rem 1.1rem 0.8rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+  }
+  .vector-4 {
+    width: 1.8rem;
+    height: 1.5rem;
+  }
+  .group-126 {
+    position: relative;
+    margin: 0 1.4rem;
+    align-self: flex-start;
+    height: 105.6rem;
+    box-sizing: border-box;
+  }
+  .group-117 {
+    box-shadow: 0.5rem -0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.8rem;
+    border-left: 0.1rem solid #000000;
+    border-top: 0.1rem solid #000000;
+    border-right: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0 25.6rem 2rem;
+    box-sizing: border-box;
+  }
+  .rectangle-773 {
+    border-radius: 1.8rem;
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: absolute;
+    left: 1.1rem;
+    top: 2.5rem;
+    width: 51.1rem;
+    height: 50.5rem;
+  }
+  .profile-5 {
+    position: relative;
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ellipse-3 {
+    margin-right: 1.1rem;
+    width: 4.6rem;
+    height: 5rem;
+  }
+  .ramesh {
+    margin: 1.1rem 0 1rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: #000000;
+  }
+  .discription {
+    position: relative;
+    margin: 0 2rem 4rem 2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .group-116 {
+    position: relative;
+    margin: 0 2.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 15.6rem;
+    box-sizing: border-box;
+  }
+  .comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.9rem;
+    height: 2.7rem;
+    box-sizing: border-box;
+  }
+  .vector-6 {
+    width: 2.9rem;
+    height: 2.7rem;
+  }
+  .heart {
+    margin: 0.1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.4rem;
+    box-sizing: border-box;
+  }
+  .vector-7 {
+    width: 2.6rem;
+    height: 2.4rem;
+  }
+  .share-variant {
+    margin: 0.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.9rem;
+    height: 2.2rem;
+    box-sizing: border-box;
+  }
+  .vector-8 {
+    width: 1.9rem;
+    height: 2.2rem;
+  }
+  .frame-152 {
+    position: absolute;
+    left: 1.1rem;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 103.1rem;
+    box-sizing: border-box;
+  }
+  .group-118 {
+    border-radius: 1.8rem;
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 2.3rem 1.9rem 0.9rem;
+    box-sizing: border-box;
+  }
+  .dis-card {
+    margin: 0 2.3rem 5.5rem 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .profile-10 {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ellipse-311 {
+    margin-right: 1.1rem;
+    width: 4.6rem;
+    height: 5rem;
+  }
+  .ramesh-12 {
+    margin: 1.1rem 0 1rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: #000000;
+  }
+  .discription-13 {
+    margin: 0 0 4rem 2rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .group-11614 {
+    margin: 0 2.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 15.6rem;
+    box-sizing: border-box;
+  }
+  .comment-15 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.9rem;
+    height: 2.7rem;
+    box-sizing: border-box;
+  }
+  .vector-16 {
+    width: 2.9rem;
+    height: 2.7rem;
+  }
+  .heart-17 {
+    margin: 0.1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.4rem;
+    box-sizing: border-box;
+  }
+  .vector-18 {
+    width: 2.6rem;
+    height: 2.4rem;
+  }
+  .share-variant-19 {
+    margin: 0.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.9rem;
+    height: 2.2rem;
+    box-sizing: border-box;
+  }
+  .vector-20 {
+    width: 1.9rem;
+    height: 2.2rem;
+  }
+  .group-143 {
+    border-radius: 0.5rem;
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 0 0.8rem 2.6rem;
+    padding: 0.9rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .dont-worry-it-is-normal {
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 300;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .group-149 {
+    border-radius: 1.3rem;
+    border: 0.1rem solid #000000;
+    background: #FDFDFD;
+    position: relative;
+    margin-left: 2.8rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.9rem 0 2.8rem 1.1rem;
+    width: 45.1rem;
+    box-sizing: border-box;
+  }
+  .ellipse-48 {
+    margin: 0 1.5rem 2.6rem 0;
+    width: 2.9rem;
+    height: 3rem;
+  }
+  .frame-150 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .jonathon-methon {
+    margin-bottom: 0.7rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .a-web-platform-that-makes-it-easier-for-people-to-connect-with-different-communities-according-to-their-city-location-and-interests {
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1rem;
+    color: #287094;
+  }
+  .group-119 {
+    border-radius: 1.8rem;
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    bottom: 0rem;
+    translate: -50% 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 2.3rem 1.9rem 0.9rem;
+    box-sizing: border-box;
+  }
+  .dis-card-22 {
+    margin: 0 2.3rem 5.5rem 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .profile-23 {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ellipse-324 {
+    margin-right: 1.1rem;
+    width: 4.6rem;
+    height: 5rem;
+  }
+  .ramesh-25 {
+    margin: 1.1rem 0 1rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: #000000;
+  }
+  .discription-26 {
+    margin: 0 0 4rem 2rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .group-11627 {
+    margin: 0 2.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 15.6rem;
+    box-sizing: border-box;
+  }
+  .comment-28 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.9rem;
+    height: 2.7rem;
+    box-sizing: border-box;
+  }
+  .vector-29 {
+    width: 2.9rem;
+    height: 2.7rem;
+  }
+  .heart-30 {
+    margin: 0.1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.4rem;
+    box-sizing: border-box;
+  }
+  .vector-31 {
+    width: 2.6rem;
+    height: 2.4rem;
+  }
+  .share-variant-32 {
+    margin: 0.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.9rem;
+    height: 2.2rem;
+    box-sizing: border-box;
+  }
+  .vector-33 {
+    width: 1.9rem;
+    height: 2.2rem;
+  }
+  .group-14334 {
+    border-radius: 0.5rem;
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 0 0.8rem 2.6rem;
+    padding: 0.9rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .dont-worry-it-is-normal-36 {
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 300;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .group-14937 {
+    border-radius: 1.3rem;
+    border: 0.1rem solid #000000;
+    background: #FDFDFD;
+    position: relative;
+    margin-left: 2.8rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.9rem 0 2.8rem 1.1rem;
+    width: 45.1rem;
+    box-sizing: border-box;
+  }
+  .ellipse-4839 {
+    margin: 0 1.5rem 2.6rem 0;
+    width: 2.9rem;
+    height: 3rem;
+  }
+  .frame-15040 {
+    position: relative;
+    padding-bottom: 1.3rem;
+    width: 32.7rem;
+    box-sizing: border-box;
+  }
+  .jonathon-methon-41 {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #000000;
+  }
+  .a-web-platform-that-makes-it-easier-for-people-to-connect-with-different-communities-according-to-their-city-location-and-interests-42 {
+    position: absolute;
+    left: 50%;
+    bottom: 0rem;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1rem;
+    color: #287094;
+  }
+  .ellipse-1 {
+    position: absolute;
+    top: 1.1rem;
+    right: 2.4rem;
+    width: 5.3rem;
+    height: 4.9rem;
+  }
+  .container {
+    position: relative;
+    margin-right: 2.4rem;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container-43 {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 71.8rem;
+    box-sizing: border-box;
+  }
+  .container-44 {
+    box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711258974&KeyName=fn12-cdn&Signature=l_xMShzDYbfFVRv3N-scGegykVo=') 50% / cover no-repeat;
+    position: relative;
+    margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0 0.6rem 1.9rem;
+    width: 93.7rem;
+    box-sizing: border-box;
+  }

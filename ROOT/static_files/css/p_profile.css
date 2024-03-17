@@ -1,0 +1,468 @@
+.profile {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93.7rem;
+    box-sizing: border-box;
+  }
+  .ellipse-1 {
+    position: absolute;
+    top: 1.1rem;
+    right: 2.4rem;
+    width: 5.3rem;
+    height: 4.9rem;
+  }
+  .its-us-not-only-you {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 3.8rem;
+    color: #000000;
+  }
+  .rectangle-786 {
+    border-radius: 1.6rem;
+    background: #BFF4F1;
+    position: absolute;
+    right: 12.1rem;
+    bottom: 10.9rem;
+    width: 13.3rem;
+    height: 3.9rem;
+  }
+  .ellipse-10 {
+    box-shadow: 0rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    margin: 0.3rem 0.1rem 0 0;
+    width: 15.7rem;
+    height: 14.3rem;
+  }
+  .star {
+    background: #FFFFFF;
+    position: relative;
+    padding: 0.4rem 0.4rem 0 0.4rem;
+    width: 4.4rem;
+    height: 4.3rem;
+    box-sizing: border-box;
+  }
+  .vector {
+    position: relative;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .vector-1 {
+    position: absolute;
+    top: 1.1rem;
+    right: -1.9rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .star-2 {
+    background: #FFFFFF;
+    position: absolute;
+    right: -2.2rem;
+    bottom: 0rem;
+    padding: 0.4rem 0.4rem 0 0.4rem;
+    width: 4.4rem;
+    height: 4.3rem;
+    box-sizing: border-box;
+  }
+  .vector-3 {
+    position: relative;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .vector-4 {
+    position: absolute;
+    top: 1.1rem;
+    right: -1.9rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .group-131 {
+    position: absolute;
+    left: 41.9rem;
+    top: 22.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 4.4rem;
+    height: 4.3rem;
+    box-sizing: border-box;
+  }
+  .group-117 {
+    box-shadow: 0.6rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 0 0.9rem 0.9rem 0;
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711259325&KeyName=fn12-cdn&Signature=wSBYPuJpvWa5q2ta9bUHycSUHQI=') 50% / cover no-repeat;
+    position: relative;
+    margin-right: 1.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.2rem 1.9rem 0 0;
+    width: 19.3rem;
+    height: 59.6rem;
+    box-sizing: border-box;
+  }
+  .rectangle-765 {
+    border-radius: 0 0.9rem 0.9rem 0;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0.9rem;
+    top: 1.5rem;
+    right: 1.2rem;
+    height: 56.1rem;
+  }
+  .frame-127 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .dash-board {
+    margin: 0 0.1rem 3.1rem 0.1rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .home {
+    margin: 0.2rem 1.1rem 0.8rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+  }
+  .vector-5 {
+    width: 1.8rem;
+    height: 1.5rem;
+  }
+  .home-6 {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .purchase {
+    margin: 0 0 3.2rem 0.2rem;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .calendar-month-outline {
+    margin: 0.1rem 1.1rem 0.7rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    box-sizing: border-box;
+  }
+  .vector-7 {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .schedule {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .sell {
+    margin: 0 0rem 3.6rem 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .cash-multiple {
+    margin: 0.6rem 1rem 0.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2.2rem;
+    height: 1.6rem;
+    box-sizing: border-box;
+  }
+  .vector-8 {
+    width: 2.2rem;
+    height: 1.6rem;
+  }
+  .earnings {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .employee-menu {
+    margin: 0 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .account-tie {
+    margin: 0.3rem 1.3rem 0.3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.9rem;
+    box-sizing: border-box;
+  }
+  .vector-9 {
+    width: 1.6rem;
+    height: 1.9rem;
+  }
+  .profile-10 {
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #035D0C;
+  }
+  .container {
+    box-shadow: 0rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border: 0.1rem solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 0 0.9rem 2.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.1rem 0 5.1rem 1.6rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container-11 {
+    box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711259325&KeyName=fn12-cdn&Signature=wSBYPuJpvWa5q2ta9bUHycSUHQI=') 50% / cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0 0.6rem 1.9rem;
+    width: 93.7rem;
+    box-sizing: border-box;
+  }
+  .add-your-calendly-link {
+    mix-blend-mode: multiply;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #035D0C;
+  }
+  .group-145 {
+    background: #8BEF95;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.9rem 0.6rem 0.9rem 0;
+    width: 25.4rem;
+    box-sizing: border-box;
+  }
+  .qualification {
+    mix-blend-mode: multiply;
+    position: relative;
+    margin: 0 2.9rem;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #1F5CA3;
+  }
+  .about {
+    mix-blend-mode: multiply;
+    margin: 0 1.7rem 0.8rem 1.7rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #1F5CA3;
+  }
+  .words {
+    margin-top: 15.3rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #000000;
+  }
+  .submit {
+    mix-blend-mode: multiply;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #035D0C;
+  }
+  .cls-fha-5-yv-znq-u-7-hydtgz-5-zl-5-t-82-shfa-utrguu-dt-djmi-4-hk-3 {
+    margin: 0 0.9rem 15.3rem 0;
+    display: inline-block;
+    width: 40.4rem;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #000000;
+  }
+  .rectangle-806 {
+    background: #D5EEED;
+    position: absolute;
+    left: 1rem;
+    top: 0.4rem;
+    width: 28.7rem;
+    height: 4.8rem;
+  }
+  .title {
+    mix-blend-mode: multiply;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #1F5CA3;
+  }
+  .group-146 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .name {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: '?????', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 3.8rem;
+    color: #1F5CA3;
+  }
+  .area-of-expertise {
+    mix-blend-mode: multiply;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #1F5CA3;
+  }
+  .container-13 {
+    background: #B7D8FF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.3rem 0.7rem 0.4rem 0.9rem;
+    width: 50.9rem;
+    box-sizing: border-box;
+  }
+  .group-151 {
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem 2rem 0.1rem 2rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .group-152 {
+    background: #D5EDFF;
+    position: relative;
+    margin-bottom: 0.8rem;
+    padding: 0.9rem 1.6rem 0.6rem 1.6rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .group-153 {
+    background: #D5EDFF;
+    position: relative;
+    align-self: flex-start;
+    padding: 0.5rem 0.9rem 0.8rem 0.9rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .group-155 {
+    margin-bottom: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .frame-157 {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .education {
+    mix-blend-mode: multiply;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #1F5CA3;
+  }
+  .group-156 {
+    background: #9ED1F7;
+    position: absolute;
+    left: 2.9rem;
+    bottom: 4.3rem;
+    padding: 0.7rem 1.1rem 1.1rem 1.1rem;
+    width: 29.2rem;
+    box-sizing: border-box;
+  }
+  .container-14 {
+    margin: 3.5rem 0 1.6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 64.4rem;
+    box-sizing: border-box;
+  }
+  .container-15 {
+    margin-bottom: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    width: 38.1rem;
+    box-sizing: border-box;
+  }
+  .container-16 {
+    box-shadow: 0rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border: 0.3rem solid #035D0C;
+    background: #8BEF95;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0 0.8rem 0.1rem;
+    width: 14.3rem;
+    box-sizing: border-box;
+  }
+  .container-17 {
+    position: relative;
+    margin-bottom: 1.2rem;
+    padding-bottom: 2.4rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .container-18 {
+    position: relative;
+    margin-right: 8.3rem;
+    display: flex;
+    flex-direction: row;
+    width: 85.5rem;
+    box-sizing: border-box;
+  }

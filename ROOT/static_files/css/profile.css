@@ -1,0 +1,11 @@
+.container-22 {
+    box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711259444&KeyName=fn12-cdn&Signature=G9huKNSl6SZ8HXdjpQEX1UZtXHA=') 50% / cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.9rem 1.6rem 0.5rem 0;
+    width: 93.7rem;
+    box-sizing: border-box;
+  }
