@@ -6,6 +6,10 @@ class diaryForm(forms.ModelForm):
         model = models.Diary
         fields = ['message', ] 
 
+        widget = {
+            'content': forms.Textarea(attrs={'placeholder': "What’s on your mind ?", 'class': "describe-your-mood"})
+        }
+
 class PostForm(forms.ModelForm):
     class Meta:
         model = models.Post

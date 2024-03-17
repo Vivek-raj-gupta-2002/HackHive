@@ -212,24 +212,24 @@
                   </div>
                 </div>
                 <div class="frame-140">
-                  <div class="diary-note">
-                    <div class="describe-your-mood">
-                      Describe your mood?
+                  <form action="{% url 'dash' %}" method="post">
+                    {% csrf_token %}
+                    <div class="diary-note">
+                      {{form.message}}
+                      <button type="submit" class="group-143">
+                        <img src="{% static '/vectors/vector38_x2.svg' %}" class="vector-38" />
+                      </button>
                     </div>
-                    <div class="group-143">
-                      <img src="{% static '/vectors/vector38_x2.svg' %}" class="vector-38" />
-                    </div>
-                  </div>
+
+                  </form>
+                  
+                  {% for item in data %}
                   <div class="diary-note-35">
                     <span class="today-is-wonderfull-day-37">
-                      Today is wonderfull day
+                      {{item.message}}
                     </span>
                   </div>
-                  <div class="diary-note-31">
-                    <span class="today-is-wonderfull-day">
-                      Today is wonderfull day
-                    </span>
-                  </div>
+                  {% endfor %}
                 </div>
               </div>
             </div>
