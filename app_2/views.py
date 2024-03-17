@@ -45,3 +45,8 @@ def p_schedule(request):
 def p_earning(request):
     return render(request,'p_earning.html')
 
+
+
+def p_profile(request):
+    return render(request,'p_profile.html')
+
