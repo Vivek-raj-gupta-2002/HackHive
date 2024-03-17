@@ -52,19 +52,27 @@ def helpers(request):
     
     req_data = User.objects.filter(groups=data)
 
-    post = posts = models.Post.objects.filter(is_anonymous=False)
+    post = models.Post.objects.filter(is_anonymous=False)
     
     
     return render(request, 'psyco.html', {'data': req_data[:3], 'top': req_data[3:7], 'post':post})
+
 
 def community(request):
     return render(request,'community.html')
 
 @login_required
 def dash(request):
-    
 
-    return render(request, 'dash.html')
+    data = Group.objects.all().filter(name='helper')[0]
+    
+    req_data = User.objects.filter(groups=data)[2:5]
+
+    form = forms.diaryForm()
+
+    data = {'reco': req_data, 'form': form}
+
+    return render(request, 'dash.html', data)
 
 
 @login_required
@@ -77,6 +85,8 @@ def profile(requests):
     bestmates
     family members
     """
+
+
     pass
 
 
