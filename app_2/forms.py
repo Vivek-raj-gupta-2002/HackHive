@@ -22,6 +22,6 @@ class profileForm(forms.ModelForm):
         widget=forms.TextInput(attrs={'class':'about'})
     )
 
-    submit=forms.CharField(
-        widget=forms.URLInput(attrs={'class':'submit'})
-    )
+    class Meta:
+        model = models.profile
+        exclude = ('user',)  # all fields of the
