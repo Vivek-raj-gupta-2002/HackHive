@@ -6,7 +6,6 @@ class profileForm(forms.ModelForm):
        widget=forms.TextInput(attrs={'class': 'name'})
      )
 
-
     title =forms.CharField(
          widget=forms.TextInput(attrs={'class':'title'})
      )
@@ -16,7 +15,7 @@ class profileForm(forms.ModelForm):
     )
 
     addyourcalendylink=forms.URLField(
-        widget=forms.URLField(attrs={'class': 'add-your-calendly-link'}))
+        widget=forms.TextInput(attrs={'class': 'add-your-calendly-link'}))
     
     about=forms.CharField(
         widget=forms.TextInput(attrs={'class':'about'})
