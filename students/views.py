@@ -64,19 +64,33 @@ def community(request):
 @login_required
 def dash(request):
 
+
     data = Group.objects.all().filter(name='helper')[0]
     
     req_data = User.objects.filter(groups=data)[2:5]
 
+    
+
+    data_ = models.Diary.objects.filter(user=request.user)
+
+    if request.method == 'POST':
+        form = forms.diaryForm(request.POST)
+        if form.is_valid():
+            form = form.save(commit=False)
+            form.user = request.user
+
+            form.save()
+
     form = forms.diaryForm()
 
-    data = {'reco': req_data, 'form': form}
+
+    data = {'reco': req_data, 'form': form, 'data': data_}
 
     return render(request, 'dash.html', data)
 
 
 @login_required
-def profile(requests):
+def profile(request):
     
     """
     user models
@@ -85,9 +99,19 @@ def profile(requests):
     bestmates
     family members
     """
+    my_user = User.objects.filter(username=request.user)
+    points = models.Rewards.objects.filter(user=request.user)[0]
 
+    my_post = models.Post.objects.filter(user=my_post[0])
 
-    pass
+    data = {
+        'user' : request.user,
+        'points': points.points,
+        'email': my_user[0].email,
+        'post': my_post
+    }
+
+    return render(request, 'profile.html', data)
 
 
 
