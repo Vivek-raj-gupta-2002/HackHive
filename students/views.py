@@ -47,15 +47,17 @@ def helpers(request):
     Get the helpers details
     Top and top 5
     """
+    new_data = dict()
 
-    data = Group.objects.all().filter(name='helper')[0]
+    data = Group.objects.all().filter(name='helper')
     
-    req_data = User.objects.filter(groups=data)
+    if len(data) != 0:
+        req_data = User.objects.filter(groups=data)
 
-    post = models.Post.objects.filter(is_anonymous=False)
+        post = models.Post.objects.filter(is_anonymous=False)
+        new_data = {'data': req_data[:3], 'top': req_data[3:7], 'post':post}
     
-    
-    return render(request, 'psyco.html', {'data': req_data[:3], 'top': req_data[3:7], 'post':post})
+    return render(request, 'psyco.html', new_data)
 
 
 def community(request):
@@ -65,9 +67,15 @@ def community(request):
 def dash(request):
 
 
-    data = Group.objects.all().filter(name='helper')[0]
+    data = Group.objects.all().filter(name='helper')
+
+    ans = dict()
     
-    req_data = User.objects.filter(groups=data)[2:5]
+    if len(data) != 0:
+        
+        req_data = User.objects.filter(groups=data[0])[2:5]
+
+        ans['reco'] = req_data
 
     
 
@@ -82,11 +90,10 @@ def dash(request):
             form.save()
 
     form = forms.diaryForm()
+    ans['form'] = form
+    ans['data'] = data_
 
-
-    data = {'reco': req_data, 'form': form, 'data': data_}
-
-    return render(request, 'dash.html', data)
+    return render(request, 'dash.html', ans)
 
 
 @login_required
