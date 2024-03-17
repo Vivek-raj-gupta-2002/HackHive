@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 from . import forms, models
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
@@ -99,19 +99,36 @@ def profile(request):
     bestmates
     family members
     """
-    my_user = User.objects.filter(username=request.user)
+    my_user = User.objects.filter(username=request.user)[0]
     points = models.Rewards.objects.filter(user=request.user)[0]
 
-    my_post = models.Post.objects.filter(user=my_post[0])
 
     data = {
         'user' : request.user,
         'points': points.points,
-        'email': my_user[0].email,
-        'post': my_post
+        'email': my_user.email,
     }
 
     return render(request, 'profile.html', data)
 
+@login_required
+def survey(request):
+    user = User.objects.get(id=request.user.id)
 
+    if request.method == 'POST':
+        
+
+        return redirect('student_post')
+    
+    questions = [
+    "Do you have antigen A in your blood?",
+    "Do you have antigen B in your blood?",
+    "Do you have both antigens A and B in your blood?",
+    "Do you have the Rh factor in your blood?",
+    "What is your blood type?"
+]
+
+
+        
+    return render(request,'survey.html', {'data': questions})
 
