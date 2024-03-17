@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{% static '/css/p_post.css' %}">
 </head>
 <body>
-
     <div class="psy-home">
         <img class="ellipse-1" />
         <div class="container-44">
@@ -22,6 +21,7 @@
             <div class="rectangle-765">
             </div>
             <div class="frame-127">
+              <a href="{% url 'student_post' %}">
               <div class="dash-board">
                 <div class="home-3">
                   <img class="vector-4" />
@@ -30,6 +30,8 @@
                   HOME
                 </span>
               </div>
+            </a>
+            <a href="{% url 'student_post' %}">
               <div class="purchase">
                 <div class="calendar-month-outline">
                   <img class="vector-2" />
@@ -38,6 +40,7 @@
                   SCHEDULE
                 </span>
               </div>
+            </a>
               <div class="sell">
                 <div class="cash-multiple">
                   <img class="vector-1" />

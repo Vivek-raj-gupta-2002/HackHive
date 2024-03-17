@@ -17,7 +17,7 @@
           </div>
           <div class="search-bar">
             <div class="search-bar-4">
-              <img class="vector-9" />
+              <img class="vector-9" src="{% static '/ROOT/static_files/assets/vectors/vector9_x2.svg' %}" />
             </div>
             <div class="search">
               Search
@@ -29,54 +29,64 @@
             <div class="rectangle-765">
             </div>
             <div class="frame-127">
+              <a href="{% url 'student_post' %}">
               <div class="dash-board">
                 <div class="monitor-dashboard">
-                  <img class="vector" />
+                  <img class="vector" src="{% static '/ROOT/static_files/assets/vectors/vector_x2.svg' %}" />
                 </div>
                 <div class="feed">
                   Feed
                 </div>
               </div>
+            </a>
+            <a href="{% url 'psyco' %}">
               <div class="purchase">
                 <div class="face-agent">
-                  <img class="vector-7" />
+                  <img class="vector-7" src="{% static '/ROOT/static_files/assets/vectors/vector7_x2.svg' %}" />
                 </div>
                 <span class="helpers">
                   Helpers
                 </span>
               </div>
+            </a>
+            <a href="{% url 'community' %}">
               <div class="sell">
                 <div class="chart-line">
-                  <img class="vector-1" />
+                  <img class="vector-1" src="{% static '/ROOT/static_files/assets/vectors/vector1_x2.svg' %}" />
                 </div>
                 <span class="communities">
                   Communities
                 </span>
               </div>
+            </a>
+            <a href="{% url 'dash' %}">
               <div class="items-menu">
                 <div class="package-variant-plus">
-                  <img class="vector-2" />
+                  <img class="vector-2" src="{% static '/ROOT/static_files/assets/vectors/vector_x2.svg' %}"/>
                 </div>
                 <span class="survey">
-                  Survey
+                  Dashboard
                 </span>
               </div>
+            </a>
+            
               <div class="employee-menu">
                 <div class="account-tie">
-                  <img class="vector-3" />
+                  <img class="vector-3" src="{% static '/ROOT/static_files/assets/vectors/vector3_x2.svg' %}"/>
                 </div>
                 <span class="profile">
                   Profile
                 </span>
               </div>
             </div>
+          
           </div>
           <div class="container">
             <form action="/" method="post">
               {% csrf_token %}
               <div class="submit-post-form">
                 <div class="user-post">
-                  <img class="ellipse-2" />
+                  <img class="ellipse-2"src="{% static '/ROOT/static_files/assets/vectors/ellipse2_x2.svg' %}" />
                   {{post_form.content}}
                     
                 </div>
@@ -96,7 +106,7 @@
                 {% for item in post %}
                 <div class="dis-card">
                   <div class="profile-8">
-                    <img class="ellipse-3" />
+                    <img class="ellipse-3" src="{% static '/ROOT/static_files/assets/vectors/ellipse3_x2.svg' %}"/>
                     <div class="ramesh">
                       {% if item.is_anonymous %}
                         @Anon
@@ -110,13 +120,13 @@
                   </div>
                   <div class="group-116">
                     <div class="heart">
-                      <img class="vector-4" />
+                      <img class="vector-4" src="{% static '/ROOT/static_files/assets/vectors/vector4_x2.svg' %}"/>
                     </div>
                     <div class="comment">
-                      <img class="vector-5" />
+                      <img class="vector-5" src="{% static '/ROOT/static_files/assets/vectors/vector5_x2.svg' %}"/>
                     </div>
                     <div class="share-variant">
-                      <img class="vector-6" />
+                      <img class="vector-6" src="{% static '/ROOT/static_files/assets/vectors/vector6_x2.svg' %}"/>
                     </div>
                   </div>
                 </div>
