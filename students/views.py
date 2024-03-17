@@ -107,12 +107,20 @@ def profile(request):
     family members
     """
     my_user = User.objects.filter(username=request.user)[0]
-    points = models.Rewards.objects.filter(user=request.user)[0]
+    points = models.Rewards.objects.filter(user=request.user)
 
+    if len(points) != 0:
 
-    data = {
+        data = {
         'user' : request.user,
         'points': points.points,
+        'email': my_user.email,
+    }
+        
+    else:
+        data = {
+        'user' : request.user,
+        
         'email': my_user.email,
     }
 
