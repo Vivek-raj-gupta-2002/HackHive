@@ -105,21 +105,6 @@
     font-size: 2.1rem;
     color: #000000;
   }
-  .00-am {
-    overflow-wrap: break-word;
-    font-family: 'Rokkitt';
-    font-weight: 400;
-    font-size: 2.1rem;
-    color: #035D0C;
-  }
-  .4 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Rokkitt';
-    font-weight: 400;
-    font-size: 2.1rem;
-    color: #035D0C;
-  }
   .ellipse-9 {
     margin: 0.6rem 1rem 3.3rem 0;
     width: 1.3rem;
@@ -242,7 +227,7 @@
     flex-direction: column;
     align-items: center;
     width: 19.3rem;
-    height: 59.6rem;
+
   }
   .rectangle-765 {
     border-radius: 0 0.9rem 0.9rem 0;
@@ -419,7 +404,7 @@
     box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
     background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/projects/U5wBQJjAKEEYkBoFqbpVBR/assets/images/7b6730a71b889781469b8852f5cc6b841a681f2c?Expires=1711259082&KeyName=fn12-cdn&Signature=i8DkNohhjDA3xD-td_QSL1nRrV4=') 50% / cover no-repeat;
     position: relative;
-    margin-bottom: 3.9rem;
+    margin-bottom: 1.9rem;
     display: flex;
     flex-direction: row;
     justify-content: center;

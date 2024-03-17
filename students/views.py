@@ -136,11 +136,12 @@ def survey(request):
         return redirect('student_post')
     
     questions = [
-    "Do you have antigen A in your blood?",
-    "Do you have antigen B in your blood?",
-    "Do you have both antigens A and B in your blood?",
-    "Do you have the Rh factor in your blood?",
-    "What is your blood type?"
+"How would you rate your overall mood today?",
+    "Have you been feeling anxious or stressed recently?",
+    "Do you have trouble sleeping at night?",
+    "Have you experienced changes in your appetite recently?",
+    "Are you able to concentrate on tasks as usual?",
+    "Do you often feel sad or hopeless?",
 ]
 
 
